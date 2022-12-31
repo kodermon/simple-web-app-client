@@ -26,7 +26,11 @@ const Header = () => {
                 </span>
 
                 <NavDropdown title={userInfo.firstName}>
-                  <NavDropdown.Item href="/profile/edit">
+                  <NavDropdown.Item
+                    onClick={() => {
+                      navigate("/profile/edit");
+                    }}
+                  >
                     Edit Profile
                   </NavDropdown.Item>
 

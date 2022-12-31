@@ -108,7 +108,6 @@ const Edit = () => {
 
       notifyUpdateSuccess();
       localStorage.setItem("userInfo", JSON.stringify(data));
-      window.location.reload();
     } catch (error) {
       setLoading(false);
 
