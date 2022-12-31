@@ -33,7 +33,7 @@ button:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 90vh;
+  height: 3em;
   transition: all 0.2s ease-in-out;
 }
 .error-wrapper {

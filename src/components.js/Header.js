@@ -44,9 +44,9 @@ const Header = () => {
             </Navbar.Collapse>
           ) : (
             <Nav>
-              <Nav.Link>
+              <Nav>
                 <Link to="/login">Login</Link>
-              </Nav.Link>
+              </Nav>
             </Nav>
           )}
         </Container>

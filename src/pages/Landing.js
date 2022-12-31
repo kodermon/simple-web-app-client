@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { Button } from "react-bootstrap";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const Landing = () => {
   const navigate = useNavigate();
@@ -19,12 +19,12 @@ const Landing = () => {
           <h1>Welcome to Simple Web App</h1>
         </div>
         <div className="btn-container">
-          <a href="/login">
+          <Link to="/login">
             <Button>Login</Button>
-          </a>
-          <a href="/register">
+          </Link>
+          <Link to="/register">
             <Button>Sign Up</Button>
-          </a>
+          </Link>
         </div>
       </div>
     </div>
