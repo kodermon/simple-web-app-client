@@ -21,7 +21,7 @@ const Footer = () => {
           >
             <span className="kodermon">Kodermon</span>
           </a>{" "}
-          &copy;2022
+          &copy;{new Date().getFullYear()}
         </p>
       </div>
     </footer>

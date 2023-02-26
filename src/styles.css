@@ -7,7 +7,6 @@ body {
   height: auto;
   color: #000;
   overflow-x: hidden;
-  transition: all 0.7s ease-in-out;
 }
 a {
   cursor: pointer;
@@ -16,18 +15,18 @@ a {
 }
 a:hover {
   opacity: 0.85;
-  transition: all 0.3s;
+  transition: all 0.3s linear;
 }
 button {
-  transition: all 0.15s;
+  transition: all 0.15s linear;
 }
 button.active {
   opacity: 0.85;
-  transition: all 0.15s;
+  transition: all 0.15s linear;
 }
 button:hover {
   opacity: 0.7;
-  transition: all 0.3s;
+  transition: all 0.5s;
 }
 .spinner {
   display: flex;
@@ -40,12 +39,14 @@ button:hover {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: all 0.5s linear;
 }
 .error-message {
   background-color: rgb(205, 65, 65);
   color: #fff;
   width: fit-content;
   padding: 14px 40px;
+  transition: all 1s linear;
 }
 .error-icon {
   font-size: 30px;
@@ -61,6 +62,7 @@ Header
 */
 .header {
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+  transition: all 0.5s;
 }
 
 /*
@@ -76,6 +78,7 @@ Landing
   justify-content: center;
   min-height: 80vh;
   margin-top: -4em;
+  transition: all 1s;
 }
 .landing-text {
   display: flex;
@@ -98,6 +101,7 @@ Register/Login
 */
 .register {
   padding: 22px;
+  transition: all 1s;
 }
 .register form,
 .login form {
@@ -182,9 +186,11 @@ Edit
   align-items: center;
   justify-content: center;
   gap: 1em;
+  transition: all 0.5s linear;
 }
 .section-title {
   text-align: center;
+  transition: all 0.5s linear;
 }
 .container {
   display: flex;
@@ -230,18 +236,22 @@ Edit
   display: flex;
   flex-direction: column;
   gap: 10px;
+  transition: all 0.5s;
 }
 .edit-btns {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 15px;
+  transition: all 0.5s;
 }
 .update-btn {
   margin-right: 4em;
+  transition: all 0.5s;
 }
 .delete-btn {
   margin-right: -3em;
+  transition: all 0.5s;
 }
 .back-btn-container {
   display: flex;
@@ -253,6 +263,7 @@ Edit
   text-transform: none;
   display: flex;
   align-items: center;
+  transition: all 0.5s;
 }
 .go-back-icon {
   font-size: 19px;
@@ -274,23 +285,26 @@ Footer
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 10px 0;
+  padding: 40px 0;
   gap: 10px;
+  transition: all 0.5s;
+  background: #000;
+  color: #fff;
 }
 .footer-icon {
   font-size: 35px;
-  color: rgb(18, 17, 17);
+  color: #fff;
   cursor: pointer;
-  transition: all 0.2s;
+  transition: all 0.5s;
 }
 .footer-icon:hover {
-  transition: all 0.2s;
+  transition: all 0.5s;
   opacity: 0.85;
 }
 .kodermon {
   color: blue;
   cursor: pointer;
-  transition: all 0.2s;
+  transition: all 0.5s;
 }
 
 /*
